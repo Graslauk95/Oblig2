@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Oblig2</title>
+  <link rel="stylesheet" type="text/css" href="stilark.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<div id="wrapper">
+		<header>
+			<h1>Oblig2-Webutvikling</h1>
+			<a href="forside.html"><i class="fa fa-home" aria-hidden="true"></i></a>
+		</header>
+		<section class="grid-wrapperartikkel">
+			<article class="box">
+				<h2>Informasjon om MathML</h2>
+				<p>MathML er en måte å vise og håndtere matematiske oppsett, tegn og symboler. Med MathML har du muligheten til å konstruere matematiske strukturer og innholdet, dette gjør at det er enkelt å kunne skrive formlene du selv ønsker.
+				   Grunnen til at MathML er nyttig er fordi det ikke er mulig å gi slike matematiske i ren html. Dette er styrken ved MathML.
+				   Ved bruk av MathML så gir lager du det som heter content som er semantikken i det matematiske og presentation som beskriver hvordan det skal vises. For å bruke MathML må du bruke <math> og <semantic> taggene.</p>
+				<h2>Eksempler</h2>
+				<math>
+					<semantics>
+						<!-- Presentation MathML -->
+						<mrow>
+							<mi>E</mi>
+							<mo>=</mo>
+							<mi>m</mi>
+							<msup>
+								<mi>c</mi>
+								<mn>2</mn>
+							</msup>
+						</mrow>
+						
+						<!-- Content MathML -->
+						<annotation-xml encoding="MathML-Content">
+							<apply>
+								<eq />
+								<ci>E</ci>
+								<apply>
+									<times/>
+									<ci>m</ci>
+									<apply>
+										<power/>
+										<ci>c</ci>
+										<cn>2</cn>
+									</apply>
+								</apply>
+							</apply>
+						</annotation-xml>
+					</semantics>
+					</math>
+					  <p></p> 
+					<math xmlns="http://www.w3.org/1998/Math/MathML">
+						<infinity/>
+					</math>
+											  
+					  
+
+			</article>
+		</section>
+		<footer>
+			<h2><a href="omdennesiden.html">Les mer om denne siden</a></h2>
+		</footer>
+		</div>
+	</body>
+</html>
